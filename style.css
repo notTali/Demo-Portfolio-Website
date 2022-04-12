@@ -13,7 +13,7 @@ a{
 /* Header */
 header{
     padding-top: 20px;
-    background: rgba(80, 27, 158, 0.5)
+    background: rgb(55, 37, 83)
     /* url("./assets/engin-akyurt-BawjznQ3Q8U-unsplash.jpg") no-repeat center center/cover */
 }
 
@@ -35,7 +35,7 @@ header{
 }
 
 .middle .blur-box h1{
-
+    text-shadow: 2px 2px 8px rgba(29, 1, 17, 0.463);
     font-size: 5rem;
     padding: 20px 80% 20px 00px;
 }
@@ -102,7 +102,7 @@ header{
 
 .years-box h1{
     font-size: 4rem;
-    text-shadow: 0px 5px 10px rgba(245, 218, 245, 1);
+    text-shadow: 2px 2px 8px rgba(232, 51, 153, 0.463);
     color: white;
     
 }
@@ -165,4 +165,30 @@ header{
 .skills h1{
     border-right: 5px solid black;
     padding-right: 5px;
+}
+
+/* Skill list */
+.skill-list{
+    margin-top: 30px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.skill-list div{
+    background-color: rgba(37, 18, 182, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    
+}
+
+.skill-list div .rounded{
+    font-size: 24px;
+    padding: 15px 20px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-bottom: 15px;
+
 }
