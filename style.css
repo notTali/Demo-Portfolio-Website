@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-    
 }
 
 a{
@@ -14,7 +13,8 @@ a{
 /* Header */
 header{
     padding-top: 20px;
-    background: url("./assets/engin-akyurt-BawjznQ3Q8U-unsplash.jpg") no-repeat center center/cover
+    background: rgb(108, 108, 138)
+    /* url("./assets/engin-akyurt-BawjznQ3Q8U-unsplash.jpg") no-repeat center center/cover */
 }
 
 .middle{
@@ -53,7 +53,7 @@ header{
     border-radius: 5px 5px 0px 0px;
     justify-content: space-between;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 0px 5px 60px -10px blue;
+    box-shadow: 1px 15px 10px 0px rgb(191, 191, 233,.5);
 }
 
 .middle .main-nav ul a{
@@ -64,7 +64,7 @@ header{
 
 .middle .main-nav ul a:hover{
     /* h-shadow v-shadow blur-radius color|none|initial|inherit; */
-    box-shadow: 0px 18px 15px rgb(141, 141, 193);
+    box-shadow: 0px 18px 10px rgb(141, 141, 193);
 }
 
 /* About */
@@ -88,7 +88,8 @@ header{
 }
 
 .about .about-info .years-box{
-    height: 100%;
+    /* height: 100%; */
+    max-height: 150px;
     background-color: rgba(213, 108, 213, 0.7);
     padding-left: 20px;
     padding-right: 20px;
@@ -150,4 +151,20 @@ header{
 .about-buttons .download-cv:hover {
     box-shadow: 0px 5px 5px rgb(141, 141, 193);
     /* margin: 0px 5px;     */
+}
+
+/* Skills*/
+
+.skills{
+    margin-top: 100px;
+}
+
+.skills p{
+    border-left: 5px solid red;
+    padding-left: 5px;
+}
+
+.skills h1{
+    border-left: 5px solid black;
+    padding-left: 5px;
 }
