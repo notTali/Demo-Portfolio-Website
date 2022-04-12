@@ -63,6 +63,33 @@ header{
 }
 
 /* About */
-main .about{
-    /* padding: 1000px; */
+.center-about{
+    width: 60%;
+    margin: auto;
+}
+
+.about{
+    margin: 60px 0px;
+}
+
+.about .about-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .about-info h2{
+    margin-right: 20px;
+    flex: 1;
+}
+
+.about .about-info .years-box{
+    height: 100%;
+    background-color: plum;
+    padding: 50px 20px;
+    text-align: center;
+    margin: 0px 30px;
+}
+
+.about .about-info p{
+    flex: 1;
 }
