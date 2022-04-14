@@ -29,7 +29,7 @@ header{
     font-weight: bolder;
     color: #fff;
     padding: 50px 50px;
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(255, 255, 255, .1);
     flex-direction: 1;
     border-radius: 8px;
 }
@@ -75,11 +75,13 @@ header{
 
 /* About */
 .center-about{
-    width: 60%;
+    position: relative;
+    width: 70%;
     margin: auto;
 }
 
 .about{
+    clip-path: polygon(48.96% 2px, 99.85% 0.06%, 97.06% 38.09%, 99.73% 84.74%, 49.92% 95.8%, 0.46% 85.13%, 2.63% 36.94%, 5px 0.06%);
     padding: 100px 0px;
     background: rgb(221, 160, 221, 0.1);
 }
@@ -210,4 +212,10 @@ header{
 
 .skill-list div:nth-child(4){
     background-color: rgba(242, 249, 45, 0.367);
+}
+
+.start-project{
+    bottom: -500px;
+    right: 0px;
+    position: absolute;
 }
